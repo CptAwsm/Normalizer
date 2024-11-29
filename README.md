@@ -27,8 +27,11 @@ git clone https://github.com/yourusername/video-audio-normalizer.git
 2. Install FFmpeg:
 
 Windows: Download from FFmpeg Official Site (https://www.ffmpeg.org/download.html)
+
 Linux: sudo apt install ffmpeg
+
 MacOS: brew install ffmpeg
+
 Update the FFMPEG_PATH in the script if needed
 
 3. Usage:
@@ -42,17 +45,25 @@ Choose whether to process subdirectories
 ## The script will:
 
 Scan for video files (.mp4, .mkv, .avi, .mov, .wmv, .flv)
+
 Process each file with normalized audio
+
 Create new files prefixed with "normalized_"
+
 Display real-time progress and statistics
 
 ## Technical Specifications
 
 Target Loudness: -14 LUFS (streaming standard)
+
 Loudness Range (LRA): 11
+
 True Peak: -1.5 dB
+
 Audio Codec: AAC
+
 Audio Bitrate: 192kbps
+
 Video Processing: Direct stream copy (no re-encoding)
 
 ## Contributing
@@ -95,7 +106,9 @@ SOFTWARE.
 
 
 Why Use This Tool?
+
 Because life's too short for inconsistent audio levels. Your viewers' ears will thank you, and you'll never have to do the volume dance again - you know, that awkward shuffle between the volume up and down buttons while binge-watching.
 
 Why did the audio normalizer go to therapy?
+
 It had too many ups and downs in life! 🎢
