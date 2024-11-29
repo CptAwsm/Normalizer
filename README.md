@@ -22,7 +22,7 @@ A professional-grade tool for batch processing video files to normalize audio le
 
 1. Clone this repository:
 
-git clone https://github.com/yourusername/video-audio-normalizer.git
+git clone https://github.com/CptAwsm/Normalizer.git
 
 2. Install FFmpeg:
 
